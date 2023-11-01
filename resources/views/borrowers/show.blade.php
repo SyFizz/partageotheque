@@ -26,12 +26,8 @@
                     <div>
                         <x-input-label for="role" :value="__('Rôle')" />
                         <x-select-input readonly disabled id="role" name="role" class="mt-1 block w-full bg-gray-100">
-                            <option value="Professeur">Professeur</option>
-                            <option value="CPE">CPE</option>
-                            <option value="Personnel de laboratoire">Personnel de laboratoire</option>
-                            <option value="Personnel de vie scolaire">Personnel de vie scolaire</option>
-                            <option value="Personnel administratif">Personnel administratif</option>
-                            <option value="Personnel Région">Personnel Région</option>
+                            <option value="Adhérent">Adhérent</option>
+                            <option value="Bénévole">Bénévole</option>
                             <option value="Autre">Autre</option>
                         </x-select-input>
 
